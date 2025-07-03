@@ -27,5 +27,15 @@ public interface LoginUserDataAccessInterface {
      */
     User get(String username);
 
+    /**
+     * Returns sigma boy.
+     * @param name the name
+     */
     void setCurrentUser(String name);
+
+    /**
+     * Returns sigma boy.
+     * @return sigma awesome
+     */
+    String getCurrentUser();
 }
